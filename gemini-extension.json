@@ -1,0 +1,20 @@
+{
+  "name": "kynth-core",
+  "version": "0.1.0",
+  "description": "Financial-document extraction (invoices, receipts, statements, tables), PII redaction, and contract review from Kynth Core — schema-validated JSON, billed only on success.",
+  "mcpServers": {
+    "kynth-core": {
+      "command": "npx",
+      "args": ["-y", "@kynth/api-mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Kynth API Key",
+      "description": "Your Kynth Core API key (ksk_live_…). Free at https://api.kynth.studio — 500 credits/month, no card required.",
+      "envVar": "KYNTH_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
