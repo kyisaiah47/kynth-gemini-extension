@@ -1,6 +1,6 @@
-# Kynth Core
+# ParseRail
 
-This extension connects you to Kynth Core (https://api.kynth.studio), an API that turns documents and messy text into schema-validated JSON. Every tool calls the hosted API and burns credits from the account's wallet — but only on success. A failed call costs nothing, so it is always safe to try.
+This extension connects you to ParseRail (https://api.kynth.studio), an API that turns documents and messy text into schema-validated JSON. Every tool calls the hosted API and burns credits from the account's wallet — but only on success. A failed call costs nothing, so it is always safe to try.
 
 ## Passing documents
 
